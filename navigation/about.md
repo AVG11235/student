@@ -63,7 +63,7 @@ Flags are made using Wikipedia images
         {"flag": "f/fc/Flag_of_Mexico.svg", "greeting": "Hallo", "description": "My - Birthplace"},
         {"flag": "d/df/Flag_of_Peru_%28state%29.svg", "greeting": "Over here!", "description": "Father's - home - country"},
         {"flag": "9/9e/Flag_of_Japan.svg", "greeting": "YO!", "description": "Favorite - Vacation"},
-        {"flag": "c/c3/Flag_of_France.svg", "greeting": "Bonjour", "description": "an - extra - bit - of - genetics}
+        {"flag": "c/c3/Flag_of_France.svg", "greeting": "Bonjour", "description": "an - extra - bit - of - genetics},
     ];
 
     // 3a. Consider how to update style count for size of container
