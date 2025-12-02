@@ -97,30 +97,29 @@ Flags are made using Wikipedia images
     }
 </script>
 
-### Journey through Life
+### MIAE LIEF('s journey)
 
-Here is what I did at those places
+Here's what I've done
 
-- 🏫 Lots of Elementary Schools in Tucson, LA, Honolulu, and Glendale (CA)
-- 🏫 Middle and High School in Glendale (CA), Hoover High graduated '77
-- 🎓 Glendale CA Community College, UCLA Extension, LA Wilshire Computer Tech School '77 to '79
-- ⛪ England, London Missionary for Church of Jesus Christ of Latter-day Saints '79 to '81
-- 💼 Culver City, Glendale CA founder at Ashton-Tate, original PC's dBase 2 and 3 '82 to '87
-- 🎓 Eugene Oregon Undergraduate CompSci Degree at University of Oregon (Go Ducks!) '89 to '91
-- 💼 Eugene Oregon, founder and owner @ Microniche `88, Point Control CAD CAM developer '91 to '96
-- 🏢 San Diego CA Qualcomm, Satellite Comm and 1st Mobile OS (BREW) '96 to '19
-- 👨‍🏫 San Diego CA Teacher of Computer Science @ Del Norte High School San Diego '19 to present
+- Become born
+- Graduated Oak Valley
+- Made a number of now vanishified friends (where'd they go?!)
+- Grown up and now into HS
+- have cried like 6 to 8 times in the last 3 years
+- Learned many talents
+- Produced much content and more to come
+- I can ride a bike 
 
-### Culture, Family, and Fun
+### Yo, What's up, and my Homies?!
 
-Everything for me, as for many others, revolves around family and faith.
+I have had a neat life, doing many things like yo- jk.
 
-- My mother told me that I was Danish, English. and Irish, here is my researched [family tree]({{site.baseurl}}/images/about/familytree.png)
-- My family is pretty big as I have been married twice, my 1st wife passed away.  We have had 5 kids, 4 adopted by me, 1 biological.  Plus, there are three grandkids.  My name to my grandkids is Abuilito.
-- The gallery of pics has some of my family, fun, culture and faith memories.
+- I've grown to the point of 15 year old, and had like 15 haircuts or something
+- My fam, hmm, well my fam's pretty lit. ok not really, I have a simple family of 4 as the youngest, and many cousins that on 50% of holidays, My family goes to my favorite cousins place in utah, the Wilsons.
+- Up next we have many family ipad pics which held some retro memories that I'm not showing all of them.
 
 <comment>
-Gallery of Pics, scroll to the right for more ...
+Gallery of my Pad Pics (be sure to scroll to the right for more ...)
 </comment>
 <div class="image-gallery">
   <img src="{{site.baseurl}}/images/about/pics/IMG_0064.jpg" alt="Image 1">
