@@ -118,6 +118,7 @@ I have had a neat life, doing many things like yo- jk.
 - My fam, hmm, well my fam's pretty lit. ok not really, I have a simple family of 4 as the youngest, and many cousins that on 50% of holidays, My family goes to my favorite cousins place in utah, the Wilsons.
 - Up next we have many family ipad pics which held some retro memories that I'm not showing all of them.
 
+### HAPPY NEW YEAR!
 
 // Clear the output
 outputElement.innerHTML = '';
@@ -126,8 +127,8 @@ outputElement.innerHTML = '';
 const living_in_the_world = [
   <img src="{{site.baseurl}}/images/about/pics/images.jpeg" alt="Image 12">
   <img src="{{site.baseurl}}/images/about/pics/Untitled.jpeg" alt="Image 13">
-  <img src="{{site.baseurl}}/images/about/pics/IMG_2052.png" alt="Image 3">
-  <img src="{{site.baseurl}}/images/about/pics/IMG_2060.png" alt="Image 4">
+  <img src="{{site.baseurl}}/images/about/pics/image.png" alt="Image 14">
+  <img src="{{site.baseurl}}/images/about/pics/image-copy.png" alt="Image 15">
 ];
 
 // Create a div container with id
