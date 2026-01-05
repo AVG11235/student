@@ -118,6 +118,69 @@ I have had a neat life, doing many things like yo- jk.
 - My fam, hmm, well my fam's pretty lit. ok not really, I have a simple family of 4 as the youngest, and many cousins that on 50% of holidays, My family goes to my favorite cousins place in utah, the Wilsons.
 - Up next we have many family ipad pics which held some retro memories that I'm not showing all of them.
 
+// Clear the output
+outputElement.innerHTML = '';
+
+// Data array
+const living_in_the_world = [
+  <img src="{{site.baseurl}}/images/about/pics/images.jpeg" alt="Image 12">
+  <img src="{{site.baseurl}}/images/about/pics/Untitled.jpeg" alt="Image 13">
+  <img src="{{site.baseurl}}/images/about/pics/IMG_2052.png" alt="Image 3">
+  <img src="{{site.baseurl}}/images/about/pics/IMG_2060.png" alt="Image 4">
+];
+
+// Create a div container with id
+const container = document.createElement('div');
+container.id = 'grid_container';
+
+// Style the container 
+container.style.border = '2px solid';
+container.style.padding = '10px';
+
+// Grid specific styles
+container.style.display = 'grid';
+container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+container.style.gap = '10px';
+
+// Loop through data and create grid items
+for (const location of living_in_the_world) {
+  // Create grid item
+  const gridItem = document.createElement('div');
+  gridItem.style.textAlign = 'center';
+  
+  // Create a flag image
+  const img = document.createElement('img');
+  img.src = location.flag;
+  img.alt = location.description + ' Flag';
+  img.style.width = '100%';
+  img.style.height = '100px';
+  img.style.objectFit = 'contain';
+  
+  // Create a description
+  const description = document.createElement('p');
+  description.textContent = location.description;
+  description.style.margin = '5px 0';
+  description.style.fontWeight = 'bold';
+  
+  // Create a greeting
+  const greeting = document.createElement('p');
+  greeting.textContent = location.greeting;
+  greeting.style.margin = '5px 0';
+  greeting.style.fontStyle = 'italic';
+  greeting.style.opacity = '0.7';
+  
+  // Add all elements to grid item
+  gridItem.appendChild(img);
+  gridItem.appendChild(description);
+  gridItem.appendChild(greeting);
+  
+  // Add grid item to container
+  container.appendChild(gridItem);
+}
+
+// Add containter to output 
+outputElement.appendChild(container);
+
 <comment>
 Gallery of my Pad Pics (be sure to scroll to the right for more ...)
 </comment>
