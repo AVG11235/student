@@ -125,10 +125,10 @@ outputElement.innerHTML = '';
 
 
 const living_in_the_world = [
-  <img src="{{site.baseurl}}/images/about/pics/images.jpeg" alt="Image 12">
+  <img src="{{site.baseurl}}/images/about/pics/images.jpeg" alt="diddy">
   <img src="{{site.baseurl}}/images/about/pics/Untitled.jpeg" alt="Image 13">
-  <img src="{{site.baseurl}}/images/about/pics/image.png" alt="Image 14">
-  <img src="{{site.baseurl}}/images/about/pics/image-copy.png" alt="Image 15">
+  <img src="{{site.baseurl}}/images/about/pics/image.png" alt="the paris ball drop was really beautiful">
+  <img src="{{site.baseurl}}/images/about/pics/image-copy.png" alt="yeah a casual party! cool">
 ];
 
 
