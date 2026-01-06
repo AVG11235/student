@@ -120,13 +120,77 @@ I have had a neat life, doing many things like yo- jk.
 
 
 
+<script>
+// Clear the output
+outputElement.innerHTML = '';
 
+// Data array
+const living_in_the_world = [
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg", greeting: "Hey", description: "California - forever"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg", greeting: "Hi", description: "Oregon - 9 years"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_England.svg", greeting: "Alright mate", description: "England - 2 years"},
+  {flag: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg", greeting: "Aloha", description: "Hawaii - 2 years"}
+];
 
+// Create a div container with id
+const container = document.createElement('div');
+container.id = 'grid_container';
+
+// Style the container 
+container.style.border = '2px solid';
+container.style.padding = '10px';
+
+// Grid specific styles
+container.style.display = 'grid';
+container.style.gridTemplateColumns = 'repeat(auto-fill, minmax(150px, 1fr))';
+container.style.gap = '10px';
+
+// Loop through data and create grid items
+for (const location of living_in_the_world) {
+  // Create grid item
+  const gridItem = document.createElement('div');
+  gridItem.style.textAlign = 'center';
+  
+  // Create a flag image
+  const img = document.createElement('img');
+  img.src = location.flag;
+  img.alt = location.description + ' Flag';
+  img.style.width = '100%';
+  img.style.height = '100px';
+  img.style.objectFit = 'contain';
+  
+  // Create a description
+  const description = document.createElement('p');
+  description.textContent = location.description;
+  description.style.margin = '5px 0';
+  description.style.fontWeight = 'bold';
+  
+  // Create a greeting
+  const greeting = document.createElement('p');
+  greeting.textContent = location.greeting;
+  greeting.style.margin = '5px 0';
+  greeting.style.fontStyle = 'italic';
+  greeting.style.opacity = '0.7';
+  
+  // Add all elements to grid item
+  gridItem.appendChild(img);
+  gridItem.appendChild(description);
+  gridItem.appendChild(greeting);
+  
+  // Add grid item to container
+  container.appendChild(gridItem);
+}
+
+// Add containter to output 
+outputElement.appendChild(container);
+<script>>
+
+<script>
 outputElement.innerHTML = '';
 
 
 const living_in_the_world = [
-  <img src="{{site.baseurl}}/images/about/pics/images.jpeg", "greeting": "hi","description": "bye">
+  <img src="{{site.baseurl}}/images/about/pics/images.jpeg" alt="poopypants">
   <img src="{{site.baseurl}}/images/about/pics/Untitled.jpeg" alt="Image 13">
   <img src="{{site.baseurl}}/images/about/pics/image.png" alt="the paris ball drop was really beautiful">
   <img src="{{site.baseurl}}/images/about/pics/image-copy.png" alt="yeah a casual party! cool">
@@ -183,6 +247,9 @@ for (const location of living_in_the_world) {
 
 
 outputElement.appendChild(container);
+<script>
+
+
 
 <comment>
 Gallery of my Pad Pics (be sure to scroll to the right for more ...)
