@@ -118,14 +118,12 @@ I have had a neat life, doing many things like yo- jk.
 - My fam, hmm, well my fam's pretty lit. ok not really, I have a simple family of 4 as the youngest, and many cousins that on 50% of holidays, My family goes to my favorite cousins place in utah, the Wilsons.
 - Up next we have many family ipad pics which held some retro memories that I'm not showing all of them.
 
-### HAPPY NEW YEAR!
-
-
+<script>
 outputElement.innerHTML = '';
 
 
 const living_in_the_world = [
-  <img src="{{site.baseurl}}/images/about/pics/images.jpeg" alt="diddy">
+  <img src="{{site.baseurl}}/images/about/pics/images.jpeg" alt="poopypants">
   <img src="{{site.baseurl}}/images/about/pics/Untitled.jpeg" alt="Image 13">
   <img src="{{site.baseurl}}/images/about/pics/image.png" alt="the paris ball drop was really beautiful">
   <img src="{{site.baseurl}}/images/about/pics/image-copy.png" alt="yeah a casual party! cool">
@@ -182,6 +180,7 @@ for (const location of living_in_the_world) {
 
 
 outputElement.appendChild(container);
+<script>
 
 <comment>
 Gallery of my Pad Pics (be sure to scroll to the right for more ...)
