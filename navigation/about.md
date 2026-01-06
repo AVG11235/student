@@ -183,7 +183,7 @@ for (const location of living_in_the_world) {
 
 // Add containter to output 
 outputElement.appendChild(container);
-<script>>
+<script>
 
 <script>
 outputElement.innerHTML = '';
