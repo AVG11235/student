@@ -125,7 +125,7 @@ I have had a neat life, doing many things like yo- jk.
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "7/72/Happy_New_Year_2017_%2831228244793%29.jpg/640px-Happy_New_Year_2017_%2831228244793%29.jpg", "greeting": "Hallo", "description": "My Birthplace"},
+        {"flag": "d/d0/Happy_new_year.jpg/640px-Happy_new_year.jpg", "greeting": "Feliz, estamos Feliz", "description": "Por un ano nuevo"},
         {"flag": "d/df/Flag_of_Peru_%28state%29.svg", "greeting": "Over here!", "description": "Father's home country"},
         {"flag": "9/9e/Flag_of_Japan.svg", "greeting": "YO!", "description": "Favorite Vacation"},
         {"flag": "c/c3/Flag_of_France.svg", "greeting": "Bonjour", "description": "an extra bit of genetics"},
@@ -160,7 +160,7 @@ I have had a neat life, doing many things like yo- jk.
         // Append the grid item DIV to the container DIV
         container.appendChild(gridItem);
     }
-<script>
+</script>
 
 
 
