@@ -120,7 +120,6 @@ I have had a neat life, doing many things like yo- jk.
 
 ### HAPPY NEW YEAR!
 
-<script>
 outputElement.innerHTML = '';
 
 
@@ -182,7 +181,7 @@ for (const location of living_in_the_world) {
 
 
 outputElement.appendChild(container);
-<script>
+
 
 
 
