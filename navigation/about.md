@@ -125,10 +125,10 @@ I have had a neat life, doing many things like yo- jk.
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
-        {"flag": "d/d0/Happy_new_year.jpg/640px-Happy_new_year.jpg", "greeting": "Feliz, estamos Feliz", "description": "Por un ano nuevo"},
-        {"flag": "7/73/Season%27s_Greetings_A_Happy_New_Year%21_%28eso0653c%29.tiff/lossy-page1-640px-Season%27s_Greetings_A_Happy_New_Year%21_%28eso0653c%29.tiff.jpg", "greeting": "Galaxial omg", "description": "A new year happenned in here, it seemed kinda small though"},
-        {"flag": "9/9e/Flag_of_Japan.svg", "greeting": "YO!", "description": "Favorite Vacation"},
-        {"flag": "c/c3/Flag_of_France.svg", "greeting": "Bonjour", "description": "an extra bit of genetics"},
+        {"flag": "thumb/d/d0/Happy_new_year.jpg/640px-Happy_new_year.jpg", "greeting": "Feliz, estamos Feliz", "description": "Por un ano nuevo"},
+        {"flag": "thumb/7/73/Season%27s_Greetings_A_Happy_New_Year%21_%28eso0653c%29.tiff/lossy-page1-640px-Season%27s_Greetings_A_Happy_New_Year%21_%28eso0653c%29.tiff.jpg", "greeting": "Galaxial omg", "description": "A new year happenned in here, it seemed kinda small though"},
+        {"flag": "thumb/4/4a/Happy_New_Year_2022%21.gif/640px-Happy_New_Year_2022%21.gif", "greeting": "Christmas is done", "description": "It was great like our NEW YEAR!!!!!"},
+        {"flag": "thumb/9/97/Happy_new_year_rnd.svg/640px-Happy_new_year_rnd.svg.png", "greeting": "Ah yes the color of 2026", "description": "HAVE THE HAPPIEST NEW YEAR OF ALL THYME CHAT"},
     ];
 
     // 3a. Consider how to update style count for size of container
