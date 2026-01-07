@@ -126,7 +126,7 @@ I have had a neat life, doing many things like yo- jk.
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
         {"flag": "d/d0/Happy_new_year.jpg/640px-Happy_new_year.jpg", "greeting": "Feliz, estamos Feliz", "description": "Por un ano nuevo"},
-        {"flag": "d/df/Flag_of_Peru_%28state%29.svg", "greeting": "Over here!", "description": "Father's home country"},
+        {"flag": "7/73/Season%27s_Greetings_A_Happy_New_Year%21_%28eso0653c%29.tiff/lossy-page1-640px-Season%27s_Greetings_A_Happy_New_Year%21_%28eso0653c%29.tiff.jpg", "greeting": "Galaxial omg", "description": "A new year happenned in here, it seemed kinda small though"},
         {"flag": "9/9e/Flag_of_Japan.svg", "greeting": "YO!", "description": "Favorite Vacation"},
         {"flag": "c/c3/Flag_of_France.svg", "greeting": "Bonjour", "description": "an extra bit of genetics"},
     ];
