@@ -119,8 +119,12 @@ I have had a neat life, doing many things like yo- jk.
 - Up next we have many family ipad pics which held some retro memories that I'm not showing all of them.
 
 ### HAPPY NEW YEAR!
+<div class="grid-container" id="newyears_container">
+    <!-- content will be added here by JavaScript -->
+</div>
+
 <script>
-   var container = document.getElementById("grid_container"); // This container connects to the HTML div
+   var container = document.getElementById("newyears_container"); // This container connects to the HTML div
 
     // 2. Define a JavaScript object for our http source and our data rows for the Living in the World grid
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
